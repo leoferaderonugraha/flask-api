@@ -2,7 +2,7 @@ from flask import request, jsonify
 from env import app, db, mm
 
 # Models
-from Config.Models.ProductModel import Product, ProductSchema
+from Models.ProductModel import Product, ProductSchema
 
 # Init schema
 productSchema = ProductSchema()
